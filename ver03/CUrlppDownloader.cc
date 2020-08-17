@@ -50,9 +50,7 @@ bool CUrlppDownloader::installWriteFunction(std::size_t (*function) (const char 
 
 void CUrlppDownloader::run()
 {
-    emit this->started();
     this->m_request->perform();
-    emit this->finished();
 }
 
 void CUrlppDownloader::installDefaultProgressFunction()

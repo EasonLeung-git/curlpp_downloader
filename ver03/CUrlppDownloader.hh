@@ -30,10 +30,6 @@ public:
     std::ofstream *getFstream();
     curlpp::Easy *getRequset();
 
-signals:
-    void started();
-    void finished();
-
 private:
     curlpp::Easy *m_request;
     std::ofstream *m_save_as;

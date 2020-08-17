@@ -5,6 +5,7 @@
 #include <QToolButton>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QThread>
 
 #include "CUrlppDownloader.hh"
 

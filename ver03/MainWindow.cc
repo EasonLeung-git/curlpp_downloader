@@ -44,7 +44,6 @@ void MainWindow::initQtConnect()
             return ;
         }
         this->initCurlpp();
-
         this->m_downloader->run();
     });
 }
